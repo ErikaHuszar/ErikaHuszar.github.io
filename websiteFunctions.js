@@ -41,7 +41,7 @@ function colorScheme(){
 
 
 /*-------------------------
-        ColorFull 
+        ColorFull
 -------------------------*/
 
 var list = document.getElementsByClassName('data-background');
@@ -50,39 +50,39 @@ var list = document.getElementsByClassName('data-background');
        var color = list[i].getAttribute('data-color');
        list[i].style.backgroundColor = "" + color + "";
      }
-     
 
 
-    
+
+
 
         var allDivs = document.getElementsByClassName('data-text-color');
-        
+
             for( var i =0; i < allDivs.length; ++i )
             {
                 var color = allDivs[i].getAttribute('data-color');
                allDivs[i].style.color = "" + color + "";
             }
-       
-            
+
+
         var allDivs = document.getElementsByClassName('timeline-border');
-        
+
         for( var i =0; i < allDivs.length; ++i )
         {
             var color = allDivs[i].getAttribute('data-color');
            allDivs[i].style.borderLeftColor = "" + color + "";
         }
-   
-      
-      
 
-     
+
+
+
+
 
 /*-----------------------------------------------------------------------------
                                    FUNCTIONS
 -----------------------------------------------------------------------------*/
 $(document).ready(function(){
     var $url = window.location.href;
-    var $id1 = $url.substring($url.lastIndexOf('l') + 1);
+    var $id1 = $url.substring($url.lastIndexOf('/') + 1);
     console.log($id1);
 
 
@@ -100,7 +100,7 @@ $(document).ready(function(){
         $(this).addClass('active');
         $('#main').children($id2).addClass('active');
     }
-  
+
 });
 
 
@@ -413,5 +413,3 @@ function sendEmail() {
         });
     }
 }
-
-

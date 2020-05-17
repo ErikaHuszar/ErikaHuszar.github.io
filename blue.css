@@ -1,0 +1,95 @@
+::-moz-selection {
+  background: #3437eb;
+}
+::selection {
+  background: #3437eb;
+}
+
+::-moz-selection {
+  background: #3437eb;
+}
+
+.base-color {
+  color: #3486eb !important;
+}
+
+.hero-social li a:hover, .blog-link a:hover {
+  color: #3486eb !important;
+}
+
+.bg-base-color {
+  background-color:#3486eb!important;
+}
+
+.follow-label:before,
+.skill-box .fill-skillbar,
+.timeline-area:before,
+.testimonial .testimonial-border,
+.blog-content:before,
+.blog .owl-dot.active span {
+  background: #3486eb
+}
+
+.testimonial .owl-dot.active span {
+  background: #3486eb !important;
+}
+
+.menu li a,
+.pill-button,
+header .navbar-brand span,
+header .navbar-brand b,
+.pill-button:hover,
+.ability ul li:before,
+.timeline-icon,
+.timeline-year,
+.language-skill ul li i,
+.contact .form-item .form-control,
+.portfolio .portfolio-icon a,
+.portfolio .portfolio-icon button,
+.comments .comment-info a,
+.blog-content button:hover,
+.comments .comment-info a:hover,
+.social a:hover {
+  color: #3486eb
+}
+
+.loader {
+  border-top: 4px solid #3486eb!important;
+}
+
+.timeline-icon {
+  border: 1px solid #3486eb
+  background-color: #3486eb
+}
+
+.portfolio .portfolio-item-content::before {
+  background-color: rgba(210, 62, 80, 0.6);
+}
+
+.menu-toggler span {
+  background-color: #d23e50;
+}
+
+.timeline-item:before {
+  border: 2px solid #3486eb
+}
+
+.timeline-item:before {
+  border: 1px solid #3486eb
+}
+
+/*-------------------------
+      Flat Demo
+-------------------------*/
+.flat-demo .button-border, .dark.flat-demo .button-border {
+  background-color: #3486eb
+}
+
+.flat-demo .pill-button:hover, .flat-demo .pill-button.active {
+  background-color: #c5293c;
+}
+
+.dark .hero-social li a:hover {
+  color: #c5293c !important;
+}
+/*# sourceMappingURL=pink-color.css.map */

@@ -1,0 +1,95 @@
+::-moz-selection {
+  background: #8e2c95;
+}
+::selection {
+  background: #8e2c95;
+}
+
+::-moz-selection {
+  background: #8e2c95;
+}
+
+.base-color {
+  color: #952c94 !important;
+}
+
+.hero-social li a:hover, .blog-link a:hover {
+  color: #c5293c !important;
+}
+
+.bg-base-color {
+  background-color: #952c94 !important;
+}
+
+.follow-label:before,
+.skill-box .fill-skillbar,
+.timeline-area:before,
+.testimonial .testimonial-border,
+.blog-content:before,
+.blog .owl-dot.active span {
+  background: #952c94;
+}
+
+.testimonial .owl-dot.active span {
+  background: #952c94 !important;
+}
+
+.menu li a,
+.pill-button,
+header .navbar-brand span,
+header .navbar-brand b,
+.pill-button:hover,
+.ability ul li:before,
+.timeline-icon,
+.timeline-year,
+.language-skill ul li i,
+.contact .form-item .form-control,
+.portfolio .portfolio-icon a,
+.portfolio .portfolio-icon button,
+.comments .comment-info a,
+.blog-content button:hover,
+.comments .comment-info a:hover,
+.social a:hover {
+  color: #952c94;
+}
+
+.loader {
+  border-top: 4px solid #952c94 !important;
+}
+
+.timeline-icon {
+  border: 1px solid #952c94;
+  background-color: #952c94;
+}
+
+.portfolio .portfolio-item-content::before {
+  background-color: rgba(210, 62, 80, 0.6);
+}
+
+.menu-toggler span {
+  background-color: #d23e50;
+}
+
+.timeline-item:before {
+  border: 2px solid #952c94;
+}
+
+.timeline-item:before {
+  border: 1px solid #952c94;
+}
+
+/*-------------------------
+      Flat Demo
+-------------------------*/
+.flat-demo .button-border, .dark.flat-demo .button-border {
+  background-color: #952c94;
+}
+
+.flat-demo .pill-button:hover, .flat-demo .pill-button.active {
+  background-color: #c5293c;
+}
+
+.dark .hero-social li a:hover {
+  color: #c5293c !important;
+}
+/*# sourceMappingURL=pink-color.css.map */

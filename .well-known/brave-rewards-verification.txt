@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: erikahuszar.github.io
+Token: d4c2e8f20dc10eb2ef97cd4587a793ab39ad18570c10e481c90284f4e04e627e
